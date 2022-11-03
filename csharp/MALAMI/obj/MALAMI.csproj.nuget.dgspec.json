@@ -47,10 +47,6 @@
             "Microsoft.Data.Sqlite.Core": {
               "target": "Package",
               "version": "[6.0.10, )"
-            },
-            "SQLitePCLRaw.lib.e_sqlite3": {
-              "target": "Package",
-              "version": "[2.1.2, )"
             }
           },
           "imports": [

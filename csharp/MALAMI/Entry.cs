@@ -17,5 +17,10 @@ namespace MALAMI
             InitializeComponent();
         }
 
+        private void yesAdmin_Click(object sender, EventArgs e)
+        {
+            this.Close();
+   
+        }
     }
 }
