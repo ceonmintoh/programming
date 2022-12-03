@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>homepage</title>
+    <title>Welcome to Shunda</title>
       {% load static %}
 
     <!-- Bootstrap core CSS -->
@@ -28,7 +28,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="{% url 'index' %}">CollegeERP</a>
+        <a class="navbar-brand" href="{% url 'index' %}">Shunda Polytechnic</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -51,8 +51,8 @@
       <!-- Jumbotron Header -->
       <header class="jumbotron my-4">
         <h1 class="display-3 text-capitalize">Welcome {{ request.user.teacher.name }}</h1>
-{#        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>#}
-{#        <a href="#" class="btn btn-primary btn-lg">Call to action!</a>#}
+{#        <p class="lead">You Can Now Manage your Students, Department, or Courses</p>#}
+{#        <a href="#" class="btn btn-primary btn-lg">Ask for Help</a>#}
       </header>
 
       <!-- Page Features -->
@@ -64,7 +64,7 @@
                 <img class="card-img-top" src="{% static 'info/images/attendance2.jpg' %}" alt="">
               </a>
               <div class="card-body">
-              <h4 class="card-title">Attendance</h4>
+              <h4 class="card-title">Enter Attendance</h4>
               <p class="card-text">Enter the attendance of the students based on the class they are in. There is also
                   the provision to edit the attendance of a whole class or student individually.</p>
             </div>
@@ -80,7 +80,7 @@
                 <img class="card-img-top" src="{% static 'info/images/marks.jpg' %}" alt="">
               </a>
               <div class="card-body">
-              <h4 class="card-title">Marks</h4>
+              <h4 class="card-title">Enter Student Marks</h4>
               <p class="card-text">Enter the marks of the students based on the class they are in. This includes
                     Internals, events and SEE. The marks of the students can also be edited.</p>
             </div>
@@ -96,7 +96,7 @@
                 <img class="card-img-top" src="{% static 'info/images/timetable.png' %}" alt="">
               </a>
               <div class="card-body">
-              <h4 class="card-title">TimeTable</h4>
+              <h4 class="card-title">Create TimeTable</h4>
               <p class="card-text">View the timetable in a tabular form. For a particular class, it specifies a
                   list of teachers who handle the same class that are free for that time slot.</p>
             </div>
@@ -112,7 +112,7 @@
                 <img class="card-img-top" src="{% static 'info/images/reports.png' %}" alt="">
             </a>
             <div class="card-body">
-              <h4 class="card-title">Reports</h4>
+              <h4 class="card-title">Class Reports</h4>
               <p class="card-text">Generate reports for each class. These reports include generating a table consisting
                     of the students belonging to that class and their respective CIE and Attendance.</p>
             </div>
