@@ -59,4 +59,4 @@ urlpatterns = [
     path('add-student/', views.add_student, name='add_student'),
 ]
 admin.site.site_url = None
-admin.site.site_header = 'My Site'
+admin.site.site_header = 'Shunda Polytechnic Management System'
